@@ -6,7 +6,7 @@ Ext.define('ejemplo2.view.Agenda2', {
 	config: {
 
 		tab: {
-			
+			title: 'Agenda',
 			iconCls: 'team'
 		},
 
@@ -14,12 +14,10 @@ Ext.define('ejemplo2.view.Agenda2', {
 
 		items: [
 			{
-				
-                cambio
+				xtype: 'lista',
 				store: 'Nombres',
 				grouped: false,
-				pinHeaders: false,
-                xtype: 'lista'
+				pinHeaders: false
 			}
 		]
 	}
